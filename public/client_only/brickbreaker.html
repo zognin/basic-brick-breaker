@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Brick Breaker</title>
+
+        <link rel="stylesheet" href="../css/brickbreaker.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Titillium+Web&display=swap"
+            rel="stylesheet"
+        />
+
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="Basic brick breaker game in JavaScript"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <div id="gameContainer">
+            <canvas id="gameCanvas" width="500" height="380"></canvas>
+            <h1 id="successMsg">Congratulations</h1>
+            <h1 id="failureMsg">Game Over :(</h1>
+            <button id="replayButton">Play again</button>
+        </div>
+
+        <script src="brickbreaker.js"></script>
+    </body>
+</html>

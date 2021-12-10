@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #633208;
+}
+
+canvas {
+    background-color: #fffce8;
+    border: 3px solid #633208;
+    margin: 10vh auto;
+    display: block;
+}
+
+#gameContainer {
+    position: relative;
+    margin: 0 auto;
+}
+
+#successMsg {
+    font-size: 50px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    position: absolute;
+    margin: 0 auto;
+    top: 30%;
+    left: 50%;
+    margin-left: -205px;
+}
+
+#failureMsg {
+    font-size: 50px;
+    font-family: 'Fuzzy Bubbles', cursive;
+    position: absolute;
+    margin: 0 auto;
+    top: 30%;
+    left: 50%;
+    margin-left: -158px;
+}
+
+#replayButton {
+    background-color: #ffa438;
+    border-color: #633208;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    margin: 0 auto;
+    top: 60%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -20px;
+}
+
+#replayButton:hover {
+    background-color: #ffd66f;
+}
